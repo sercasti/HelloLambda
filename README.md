@@ -1,6 +1,4 @@
-# Welcome to AWS Lambda Eclipse Plugin
-
-**Congratulations**! You have created your first AWS Lambda project. So what's next?
+# AWS Lambda Example
 
 * * *
 
