@@ -6,6 +6,18 @@
 
 **LambdaFunctionHandler.java** implements the **handleRequest** method. This method is the entry point for the Lambda function, and it will be invoked by Lambda in response to input from the event sources of this function.
 
+For this demonstration, we are doing a simple Hello World implementation, such as:
+´´´´java
+public class LambdaFunctionHandler implements RequestHandler<Object, String> {
+
+    @Override
+    public String handleRequest(Object input, Context context) {
+    	 String output = "Hello, " + input + "!";
+    	 return output;
+    }
+
+}
+´´´´
 * * *
 
 ### Step 2: Testing the function
