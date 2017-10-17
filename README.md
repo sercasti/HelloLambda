@@ -7,7 +7,7 @@
 **LambdaFunctionHandler.java** implements the **handleRequest** method. This method is the entry point for the Lambda function, and it will be invoked by Lambda in response to input from the event sources of this function.
 
 For this demonstration, we are doing a simple Hello World implementation, such as:
-´´´´java
+```java
 public class LambdaFunctionHandler implements RequestHandler<Object, String> {
 
     @Override
@@ -17,7 +17,7 @@ public class LambdaFunctionHandler implements RequestHandler<Object, String> {
     }
 
 }
-´´´´
+```
 * * *
 
 ### Step 2: Testing the function
